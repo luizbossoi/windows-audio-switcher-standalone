@@ -1,0 +1,14 @@
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NAudio.dll
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NAudio.xml
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\windows-audio-switcher-standalone.csprojResolveAssemblyReference.cache
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsAudioSwitcher.MainForm.resources
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\windows-audio-switcher-standalone.csproj.GenerateResource.Cache
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\windows-audio-switcher-standalone\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\windows-audio-switcher-standalone\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\windows-audio-switcher-standalone\obj\Debug\WindowsFormsApplication1.pdb
