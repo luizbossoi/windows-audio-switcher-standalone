@@ -13,6 +13,9 @@ You can configure a set of processes that you wish to change automaticaly the au
 ## How to use
 Open the process you want to make it switch, for example, open PUBG Lite, or another software you wish. Once opened, click on the "+" button, find your process in the list, select your preferred audio device to switch and save! That's it.
 
+If you just want to use this software, just the latest release from https://github.com/luizbossoi/windows-audio-switcher-standalone/releases
+
+
 ## How does it work?
 When you start to use the specified process (on foreground), this software will get this information and switch the default audio output for you.
 
