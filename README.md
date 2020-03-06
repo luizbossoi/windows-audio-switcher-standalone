@@ -8,11 +8,7 @@ You can configure a set of processes that you wish to change automaticaly the au
 
 
 ## How to use
-You can find two .EXE files inside /bin/ folder, you have to open 'WindowsAudioSwitcher.exe'.
-
-The other .EXE named EndPointController.exe is an additional software to make this audio switcher work. After opening "WindowsAudioSwitcher.exe", select your default ouput audio.
-
-After that, open the process you want to make it switch, for example, open PUBG Lite, or another software you wish. Once opened, click on the "+" button, find your process in the list, select your preferred audio device to switch and save! That's it.
+Open the process you want to make it switch, for example, open PUBG Lite, or another software you wish. Once opened, click on the "+" button, find your process in the list, select your preferred audio device to switch and save! That's it.
 
 ## How does it work?
 When you start to use the specified process (on foreground), this software will get this information and switch the default audio output for you.
