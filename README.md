@@ -1,6 +1,6 @@
 # Windows Audio Switcher - Standalone
 
-* This is a newer version than  "luizbossoi/windows-audio-switcher", this is an "all-in-one" solution and does not depend on any additional software *
+* This is a newer version than  "luizbossoi/windows-audio-switcher", an "all-in-one" solution and does not depend on any additional software *
 
 -----
 ##
