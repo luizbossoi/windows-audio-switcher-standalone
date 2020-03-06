@@ -7,8 +7,8 @@
     <ProjectGuid>{677FABF3-B0C1-49D8-B9C5-CE8DA93DCF2B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WindowsFormsApplication1</RootNamespace>
-    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <RootNamespace>windowsaudio</RootNamespace>
+    <AssemblyName>windows-audios-witcher-standalone</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -70,9 +70,12 @@
   <PropertyGroup>
     <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>VolumeControlDemo_Icon1.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="NAudio, Version=1.10.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NAudio.1.10.0\lib\net35\NAudio.dll</HintPath>
+      <HintPath>packages\NAudio.1.10.0\lib\net35\NAudio.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -144,6 +147,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VolumeControlDemo_Icon1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

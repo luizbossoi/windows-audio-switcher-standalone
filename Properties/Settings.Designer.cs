@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsAudioSwitcher.Properties {
+namespace windowsaudio.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
