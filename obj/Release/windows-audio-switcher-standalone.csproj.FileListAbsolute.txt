@@ -10,3 +10,14 @@ C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplicatio
 C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\windows-audio-switcher-standalone\windows-audio-switcher-standalone\obj\Release\windows-audio-switcher-standalone.csproj.GenerateResource.Cache
 C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\windows-audio-switcher-standalone\windows-audio-switcher-standalone\obj\Release\windows-audios-witcher-standalone.exe
 C:\Users\luizbossoi\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\windows-audio-switcher-standalone\windows-audio-switcher-standalone\obj\Release\windows-audios-witcher-standalone.pdb
+D:\windows-audio-switcher-standalone\bin\Release\windows-audios-witcher-standalone.exe.config
+D:\windows-audio-switcher-standalone\obj\Release\windows-audios-witcher-standalone.exe
+D:\windows-audio-switcher-standalone\obj\Release\windows-audios-witcher-standalone.pdb
+D:\windows-audio-switcher-standalone\bin\Release\windows-audios-witcher-standalone.exe
+D:\windows-audio-switcher-standalone\bin\Release\windows-audios-witcher-standalone.pdb
+D:\windows-audio-switcher-standalone\bin\Release\NAudio.dll
+D:\windows-audio-switcher-standalone\bin\Release\NAudio.xml
+D:\windows-audio-switcher-standalone\obj\Release\windows-audio-switcher-standalone.csprojResolveAssemblyReference.cache
+D:\windows-audio-switcher-standalone\obj\Release\WindowsAudioSwitcher.MainForm.resources
+D:\windows-audio-switcher-standalone\obj\Release\windowsaudio.Properties.Resources.resources
+D:\windows-audio-switcher-standalone\obj\Release\windows-audio-switcher-standalone.csproj.GenerateResource.Cache

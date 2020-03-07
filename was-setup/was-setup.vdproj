@@ -55,6 +55,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -71,6 +79,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -107,11 +123,6 @@
             "AssemblyAsmDisplayName" = "8:NAudio, Version=1.10.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_E2CEC4355177E33DB09B16F634D9AD57"
-                    {
-                    "Name" = "8:NAudio.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:NAudio.dll"
             "TargetName" = "8:"
@@ -187,15 +198,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Windows Audio Switcher"
-        "ProductCode" = "8:{262B0669-F850-4DAC-B117-098281011B76}"
-        "PackageCode" = "8:{33A2F05A-08A2-4349-AAE7-5F4F383E6E9E}"
+        "ProductCode" = "8:{397A610C-C422-41F7-A68E-AA23ACCA2ACB}"
+        "PackageCode" = "8:{81974483-9D54-4722-B2BF-10AA6DEB30AD}"
         "UpgradeCode" = "8:{0FE61D82-88D1-4F34-BDA9-231456B5B7B9}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.2.0"
         "Manufacturer" = "8:LuizBossoi"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -709,7 +720,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A5A9B8DA78BC45C5ACECD30C561057FF"
             {
-            "SourcePath" = "8:..\\windows-audio-switcher-standalone\\obj\\Debug\\windows-audios-witcher-standalone.exe"
+            "SourcePath" = "8:..\\obj\\Release\\windows-audios-witcher-standalone.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_D62FE947D60E4CA0AC3531A85F68EAA8"

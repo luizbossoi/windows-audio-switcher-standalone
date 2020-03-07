@@ -89,6 +89,7 @@ namespace WindowsAudioSwitcher
         }
         private void loadSetting(String filename)
         {
+            listProcesses.Items.Clear();
             populateProcesses();
             populateAudioSettings();
             var inifile = new IniFile("settings\\" + filename + ".ini");
@@ -121,9 +122,18 @@ namespace WindowsAudioSwitcher
             try
             {
                 return Path.GetFileName(p.MainModule.FileName);
-            } catch(Exception e)
+            } catch(Exception)
             {
-                return "";
+
+                // in case of access denied, 
+                try
+                {
+                    return p.ProcessName;
+                }
+                catch (Exception)
+                {
+                    return "";
+                }
             }
         }
 
@@ -167,9 +177,16 @@ namespace WindowsAudioSwitcher
                     if (!string.IsNullOrEmpty(proc.MainWindowTitle)) {
                         processes.Add(Path.GetFileName(proc.MainModule.FileName));
                     }
-                    
                 }
-                catch (Exception) { }
+                catch (Exception) {
+                    // in case of access denied
+                    try
+                    {
+                        processes.Add(proc.ProcessName);
+                    }
+                    catch (Exception)
+                    {}
+                }
             }
 
             return processes;
