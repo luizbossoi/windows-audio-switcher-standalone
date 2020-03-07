@@ -49,21 +49,20 @@ namespace WindowsAudioSwitcher
             InitializeComponent();
             enumerateAudioDevices();
             populateAudioDefault();
-            loadSavedSettings();
-            loadSavedMainSettings();
+            loadSavedSettings();            
         }
   
 
         private void loadSavedMainSettings()
         {
             var inifile = new IniFile(@"config.ini");
-            bool startonboot;
-
+            
             String defaultaudio = inifile.Read("DefaultAudio", "CONFIG");
-            if (inifile.Read("StartOnBoot", "CONFIG").Equals("True")) startonboot = true; else startonboot = false;
+            String startonboot = inifile.Read("StartOnBoot", "CONFIG");
 
-            checkBox1.Checked = startonboot;
+            
             comboDefaultAudio.SelectedIndex = comboDefaultAudio.FindString(defaultaudio);
+            if (startonboot.IndexOf("True")>-1) { chk_startonboot.Checked = true; } else { chk_startonboot.Checked = false; }
         }
 
         private void loadSavedSettings()
@@ -331,8 +330,8 @@ namespace WindowsAudioSwitcher
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             var inifile = new IniFile(@"config.ini");
-            inifile.Write("StartOnBoot", checkBox1.Checked.ToString(), "CONFIG");
-            SetStartup(checkBox1.Checked);
+            inifile.Write("StartOnBoot", chk_startonboot.Checked.ToString(), "CONFIG");
+            SetStartup(chk_startonboot.Checked);
         }
 
         private void comboBox1_SelectedValueChanged(object sender, EventArgs e)
@@ -345,5 +344,9 @@ namespace WindowsAudioSwitcher
 
         }
 
+        private void MainForm_Shown(object sender, EventArgs e)
+        {
+            loadSavedMainSettings();
+        }
     }
 }

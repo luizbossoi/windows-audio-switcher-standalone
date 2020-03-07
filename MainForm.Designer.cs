@@ -45,7 +45,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.button4 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.chk_startonboot = new System.Windows.Forms.CheckBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -196,16 +196,16 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // checkBox1
+            // chk_startonboot
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(31, 237);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(88, 17);
-            this.checkBox1.TabIndex = 13;
-            this.checkBox1.Text = "Start on Boot";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.chk_startonboot.AutoSize = true;
+            this.chk_startonboot.Location = new System.Drawing.Point(31, 237);
+            this.chk_startonboot.Name = "chk_startonboot";
+            this.chk_startonboot.Size = new System.Drawing.Size(88, 17);
+            this.chk_startonboot.TabIndex = 13;
+            this.chk_startonboot.Text = "Start on Boot";
+            this.chk_startonboot.UseVisualStyleBackColor = true;
+            this.chk_startonboot.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // timer1
             // 
@@ -239,7 +239,7 @@
             this.Controls.Add(this.lbl_saved);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.chk_startonboot);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.listSettings);
@@ -253,6 +253,7 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Windows Audio Switcher - by Process";
+            this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.Resize += new System.EventHandler(this.Form1_Resize);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -272,7 +273,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox chk_startonboot;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
